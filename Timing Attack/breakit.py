@@ -16,8 +16,8 @@ padding = delay/3
 avgNetDelay = 0
 delayThreshhold = 0
 
-URL = "http://130.243.27.198/auth/"+ str(int(delay*1000))+"/chrisun106/"
-location = "Karlstad University"
+URL = "ENTER URL TO YOUR TEST SERVER"
+location = "ENTER LOCATION OF SERVER"
 PARAMS = {'adress':location}
 tagPointer = 0
 firstHexa = 0

@@ -62,6 +62,7 @@ def main():
     for cipher in ciphers:
         print strXOR(cipher.decode('hex'), key)
 
+# XOR 2 decoded strings.
 def strXOR(a,b):
     if len(a) > len(b):
         return "".join([chr(ord(x)^ord(y)) for (x,y) in zip(a[:len(b)],b)])
